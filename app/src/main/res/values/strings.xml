@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Messenger</string>
+    <string name="button_enter">Войти</string>
+    <string name="text_name_of_messenger">Best Messenger</string>
+    <string name="hint_password">пароль</string>
+    <string name="hint_email">e-mail</string>
+    <string name="text_view_restore_password">Восстановить пароль</string>
+    <string name="text_view_registration">Регистрация</string>
+    <string name="text_view_restore_password_activity">Восстановление пароля</string>
+    <string name="hint_name">имя</string>
+    <string name="hint_last_name">фамилия</string>
+    <string name="hint_age">возраст</string>
+    <string name="button_registration">Зарегестрироваться</string>
+    <string name="menu_sign_out">Выйти</string>
+    <string name="toast_letter_sent">Письмо отправлено на указанный e-mail</string>
+    <string name="toast_enter_email">Введите e-mail</string>
+    <string name="fill_in_all_fields">Заполните все поля</string>
+    <string name="edit_text_hint_message">Сообщение</string>
+    <string name="description_send_message">Send message</string>
+    <string name="menu_profile">Профиль</string>
+    <string name="text_view_user_info">Информация о пользователе</string>
+    <string name="delete_profile">Удалить профиль</string>
+    <string name="text_name">имя</string>
+    <string name="text_last_name">фамилия</string>
+    <string name="text_age">возраст</string>
+    <string name="button_edit_user_info">РЕДАКТИРОВАТЬ</string>
+    <string name="button_save">СОХРАНИТЬ ИЗМЕНЕНИЯ</string>
+    <string name="button_ok">ок</string>
+</resources>
