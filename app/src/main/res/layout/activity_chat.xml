@@ -62,6 +62,8 @@
         app:layout_constraintBottom_toBottomOf="@+id/editTextMessage"
         app:layout_constraintEnd_toEndOf="@+id/editTextMessage"
         app:layout_constraintTop_toTopOf="@id/editTextMessage"
+        android:visibility="invisible"
+        tools:visibility="visible"
         app:srcCompat="@android:drawable/ic_menu_send" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
