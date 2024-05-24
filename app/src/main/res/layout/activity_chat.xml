@@ -49,6 +49,7 @@
         android:paddingTop="16dp"
         android:paddingBottom="16dp"
         android:paddingEnd="50dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:text="Пишу длинное сообщение, пишу длинное сообщение, пишу длинное сообщение, пишу длинное сообщение" />
 
