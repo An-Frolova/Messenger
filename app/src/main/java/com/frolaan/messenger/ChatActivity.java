@@ -10,6 +10,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -50,6 +52,29 @@ public class ChatActivity extends AppCompatActivity {
         messagesAdapter = new MessagesAdapter(currentUserId);
         recyclerViewMessages.setAdapter(messagesAdapter);
         observeViewModel();
+
+        editTextMessage.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                String text = editTextMessage.getText().toString();
+                if(!text.isEmpty()) {
+                    imageViewSendMessage.setVisibility(View.VISIBLE);
+                } else {
+                    imageViewSendMessage.setVisibility(View.INVISIBLE);
+                }
+            }
+        });
+
         imageViewSendMessage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
